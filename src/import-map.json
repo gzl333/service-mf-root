@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+    "@cnic/root-config": "//localhost:9000/cnic-root-config.js"
+  }
+}
