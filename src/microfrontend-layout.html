@@ -24,9 +24,11 @@
   <!--  todo how to make main keep mounted -->
   <application name="@cnic/main"></application>
 
-  <route path="/"> </route>
+  <route path="/" exact>
+    <application name="@single-spa/welcome"></application>
+  </route>
 
-  <route path="/my">
+  <route path="/my" exact>
     <!--  redirect to /my/server, without unmount main    -->
   </route>
 
@@ -37,4 +39,5 @@
   <route path="/my/storage">
     <application name="@cnic/storage"></application>
   </route>
+
 </single-spa-router>
