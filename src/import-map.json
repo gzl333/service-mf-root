@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@single-spa/welcome": "http://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+    "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
     "@cnic/root-config": "/cnic-root-config.js",
     "@cnic/main": "http://servicedev.cstcloud.cn/app/main/app.js",
     "@cnic/server": "http://servicedev.cstcloud.cn/app/server/app.js",

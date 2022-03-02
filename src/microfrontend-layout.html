@@ -14,22 +14,18 @@
   <route path="settings">
     <application name="@org/settings"></application>
   </route>
-  <main>
-    <route default>
-      <application name="@single-spa/welcome"></application>
-    </route>
-  </main>
+
   -->
 
-  <!--  todo how to make main keep mounted -->
+
   <application name="@cnic/main"></application>
 
   <route path="/" exact>
-    <application name="@single-spa/welcome"></application>
+<!--    <application name="@single-spa/welcome"></application>-->
   </route>
 
   <route path="/my" exact>
-    <!--  redirect to /my/server, without unmount main    -->
+<!--    <application name="@single-spa/welcome"></application>-->
   </route>
 
   <route path="/my/server">
