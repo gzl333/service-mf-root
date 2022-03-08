@@ -17,4 +17,4 @@ const layoutEngine = constructLayoutEngine({ routes, applications });
 
 applications.forEach(registerApplication);
 layoutEngine.activate();
-start({urlRerouteOnly: true});
+start({ urlRerouteOnly: true });
