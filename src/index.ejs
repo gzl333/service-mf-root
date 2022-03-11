@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>中国科技云</title>
 
+    <!--一定要主要cdn服务器被屏蔽的问题，例如google要切换成国内地址-->
     <link
-            href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"
+            href="https://fonts.font.im/css?family=Roboto:100,300,400,500,700,900|Material+Icons"
             rel="stylesheet"
             type="text/css"
     />
@@ -57,14 +58,12 @@
         <script type="systemjs-importmap">
     {
       "imports": {
-        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
         "@cnic/root-config": "//localhost:9000/cnic-root-config.js",
         "@cnic/main": "//localhost:9100/app.js",
         "@cnic/server": "//localhost:9200/app.js",
         "@cnic/storage": "//localhost:9300/app.js"
       }
     }
-
 
         </script>
     <% } %>
