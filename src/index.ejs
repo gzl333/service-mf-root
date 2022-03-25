@@ -8,6 +8,11 @@
 
     <!--一定要主要cdn服务器被屏蔽的问题，例如google要切换成国内地址-->
     <link
+            href="https://servicedev.cstcloud.cn/global.css"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <link
             href="https://fonts.font.im/css?family=Roboto:100,300,400,500,700,900|Material+Icons"
             rel="stylesheet"
             type="text/css"
@@ -43,17 +48,26 @@
 
       More information about shared dependencies can be found at https://single-spa.js.org/docs/recommended-setup#sharing-with-import-maps.
     -->
+    <% if (isLocal) { %>
+        <script type="systemjs-importmap">
+    {
+      "imports": {
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.3/lib/system/single-spa.min.js",
+        "single-spa-vue": "https://cdn.jsdelivr.net/npm/single-spa-vue@2.5.1/dist/system/single-spa-vue.js",
+        "axios": "https://cdn.jsdelivr.net/npm/axios@0.26.0/dist/axios.min.js",
+        "core-js": "https://cdn.jsdelivr.net/npm/core-js@3.21.1/index.js"
+      }
+    }
+        </script>
+    <% } else { %>
+        <script type="systemjs-importmap" src="/importmap-dependency.json"></script>
+    <% } %>
 
-    <script type="systemjs-importmap" src="/importmap-dependency.json"></script>
-
-    </script>
     <!--https://github.com/vercel/next.js/discussions/16850-->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.3/lib/system/single-spa.min.js"
           as="script" crossOrigin="anonymous">
 
     <!-- Add your organization's prod import map URL to this script's src  -->
-    <script type="systemjs-importmap" src="/importmap-app.json"></script>
-
     <% if (isLocal) { %>
         <script type="systemjs-importmap">
     {
@@ -64,8 +78,9 @@
         "@cnic/storage": "//localhost:9300/app.js"
       }
     }
-
         </script>
+    <% } else { %>
+        <script type="systemjs-importmap" src="/importmap-app.json"></script>
     <% } %>
 
     <!--
