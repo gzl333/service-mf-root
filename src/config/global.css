@@ -1,3 +1,10 @@
+.content-fixed-width {
+  padding: 0 30px;
+  width: 1290px;
+}
+.content-fixed-width-no-padding {
+  width: 1230px;
+}
 .dialog-primary {
   border-top: 5px solid #1976d2;
   border-radius: 0 !important;

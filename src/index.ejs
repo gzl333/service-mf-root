@@ -58,6 +58,7 @@
         "core-js": "https://cdn.jsdelivr.net/npm/core-js@3.21.1/index.js"
       }
     }
+
         </script>
     <% } else { %>
         <script type="systemjs-importmap" src="/importmap-dependency.json"></script>
@@ -78,6 +79,7 @@
         "@cnic/storage": "//localhost:9300/app.js"
       }
     }
+
         </script>
     <% } else { %>
         <script type="systemjs-importmap" src="/importmap-app.json"></script>
@@ -99,7 +101,8 @@
     <% } %>
 
 </head>
-<body>
+<!--@mimas: hiding the global scroll bar. Instead, using q-scroll-area in local applications-->
+<body style="overflow: hidden">
 <noscript>
     You need to enable JavaScript to run this app.
 </noscript>
