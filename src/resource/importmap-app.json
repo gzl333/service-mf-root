@@ -3,6 +3,9 @@
     "@cnic/root-config": "/cnic-root-config.js",
     "@cnic/main": "https://servicedev.cstcloud.cn/app/main/app.js",
     "@cnic/server": "https://servicedev.cstcloud.cn/app/server/app.js",
-    "@cnic/storage": "https://servicedev.cstcloud.cn/app/storage/app.js"
+    "@cnic/storage": "https://servicedev.cstcloud.cn/app/storage/app.js",
+    "@cnic/hpc": "https://servicedev.cstcloud.cn/app/hpc/app.js",
+    "@cnic/stats": "https://servicedev.cstcloud.cn/app/stats/app.js",
+    "@cnic/monitor": "https://servicedev.cstcloud.cn/app/monitor/app.js"
   }
 }

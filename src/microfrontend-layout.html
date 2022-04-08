@@ -5,6 +5,7 @@
 
 -->
 <single-spa-router>
+
   <application name="@cnic/main"></application>
 
   <route path="/my/server">
@@ -14,4 +15,17 @@
   <route path="/my/storage">
     <application name="@cnic/storage"></application>
   </route>
+
+  <route path="/my/hpc">
+    <application name="@cnic/hpc"></application>
+  </route>
+
+  <route path="/my/stats">
+    <application name="@cnic/stats"></application>
+  </route>
+
+  <route path="/my/monitor">
+    <application name="@cnic/monitor"></application>
+  </route>
+
 </single-spa-router>
