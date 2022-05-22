@@ -1,8 +1,8 @@
 {
   "imports": {
-    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.3/lib/system/single-spa.min.js",
-    "single-spa-vue": "https://cdn.jsdelivr.net/npm/single-spa-vue@2.5.1/dist/system/single-spa-vue.js",
-    "axios": "https://cdn.jsdelivr.net/npm/axios@0.26.0/dist/axios.min.js",
-    "core-js": "https://cdn.jsdelivr.net/npm/core-js@3.21.1/index.js"
+    "single-spa": "/js/single-spa.min.js",
+    "single-spa-vue": "/js/single-spa-vue.js",
+    "axios": "/js/axios.min.js",
+    "core-js": "/js/core-js-index.js"
   }
 }
