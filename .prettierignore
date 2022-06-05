@@ -8,4 +8,4 @@ LICENSE
 dist
 coverage
 pnpm-lock.yaml
-src/resource
+resources
