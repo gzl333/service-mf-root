@@ -1,11 +1,11 @@
 {
   "imports": {
     "@cnic/root-config": "/cnic-root-config.js",
-    "@cnic/main": "https://servicedev.cstcloud.cn/app/main/app.js",
-    "@cnic/server": "https://servicedev.cstcloud.cn/app/server/app.js",
-    "@cnic/storage": "https://servicedev.cstcloud.cn/app/storage/app.js",
-    "@cnic/hpc": "https://servicedev.cstcloud.cn/app/hpc/app.js",
-    "@cnic/stats": "https://servicedev.cstcloud.cn/app/stats/app.js",
-    "@cnic/monitor": "https://servicedev.cstcloud.cn/app/monitor/app.js"
+    "@cnic/main": "https://service.cstcloud.cn/app/main/app.js",
+    "@cnic/server": "https://service.cstcloud.cn/app/server/app.js",
+    "@cnic/storage": "https://service.cstcloud.cn/app/storage/app.js",
+    "@cnic/hpc": "https://service.cstcloud.cn/app/hpc/app.js",
+    "@cnic/stats": "https://service.cstcloud.cn/app/stats/app.js",
+    "@cnic/monitor": "https://service.cstcloud.cn/app/monitor/app.js"
   }
 }
