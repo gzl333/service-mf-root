@@ -6,6 +6,7 @@
     "@cnic/storage": "https://service.cstcloud.cn/app/storage/app.js",
     "@cnic/hpc": "https://service.cstcloud.cn/app/hpc/app.js",
     "@cnic/stats": "https://service.cstcloud.cn/app/stats/app.js",
-    "@cnic/monitor": "https://service.cstcloud.cn/app/monitor/app.js"
+    "@cnic/monitor": "https://service.cstcloud.cn/app/monitor/app.js",
+    "@cnic/support": "https://service.cstcloud.cn/app/support/app.js"
   }
 }
