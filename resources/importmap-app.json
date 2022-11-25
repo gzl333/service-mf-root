@@ -5,6 +5,7 @@
     "@cnic/server": "https://service.cstcloud.cn/app/server/app.js",
     "@cnic/storage": "https://service.cstcloud.cn/app/storage/app.js",
     "@cnic/hpc": "https://service.cstcloud.cn/app/hpc/app.js",
+    "@cnic/public": "https://service.cstcloud.cn/app/public/app.js",
     "@cnic/stats": "https://service.cstcloud.cn/app/stats/app.js",
     "@cnic/monitor": "https://service.cstcloud.cn/app/monitor/app.js",
     "@cnic/support": "https://service.cstcloud.cn/app/support/app.js"
