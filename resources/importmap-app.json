@@ -5,6 +5,7 @@
     "@cnic/server": "https://servicedev.cstcloud.cn/app/server/app.js",
     "@cnic/storage": "https://servicedev.cstcloud.cn/app/storage/app.js",
     "@cnic/hpc": "https://servicedev.cstcloud.cn/app/hpc/app.js",
+    "@cnic/aecs": "https://servicedev.cstcloud.cn/app/aecs/app.js",
     "@cnic/stats": "https://servicedev.cstcloud.cn/app/stats/app.js",
     "@cnic/monitor": "https://servicedev.cstcloud.cn/app/monitor/app.js",
     "@cnic/support": "https://servicedev.cstcloud.cn/app/support/app.js"
