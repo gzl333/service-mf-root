@@ -8,6 +8,7 @@
     "@cnic/public": "https://servicedev.cstcloud.cn/app/public/app.js",
     "@cnic/stats": "https://servicedev.cstcloud.cn/app/stats/app.js",
     "@cnic/monitor": "https://servicedev.cstcloud.cn/app/monitor/app.js",
+    "@cnic/wallet": "https://servicedev.cstcloud.cn/app/wallet/app.js",
     "@cnic/support": "https://servicedev.cstcloud.cn/app/support/app.js"
   }
 }
